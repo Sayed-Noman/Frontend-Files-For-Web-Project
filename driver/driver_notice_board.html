@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="driver_css/driver_notice_board.css">
+    <!------------------Jquery Latest Cdn Script--------------------------------->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!------------------Font Awesome Cdn Script--------------------------------->
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".hamburger").click(function(){
+                $(".wrapper").toggleClass("collapse");
+            });
+        });
+    </script>
+    <title>DashBoard</title>
+</head>
+<body>
+    <div class="wrapper">
+        <!------------------NavigationBar--------------------------------->
+        <div class="top_navbar">
+            <div class="hamburger">
+                <div class="side-menu-div"></div>
+                <div class="side-menu-div"></div>
+                <div class="side-menu-div"></div>
+                
+            </div>
+            <div class="top_menu">
+                <div class="logo">Driver-Police Control System</div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Driver</a></li>
+                    <li><a href="#">Police</a></li>
+                    <li><a href="#">Admin</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+                <div class="buttons">
+                    <a href="#">First_Name</a>
+                    <button type="submit">Signout</button>  
+                </div> 
+            </div>
+        </div>
+        <!------------------Side Admin Menu Bar--------------------------------->
+        <div class="sidebar">
+            <ul>
+                <li><a href="#">
+                    <span class="icon"><i class="fas fa-house-user" aria-hidden="true"></i></span>
+                    <span class="title">Home</span>
+                </a></li>
+                <li><a href="#">
+                    <span class="icon"><i class="fas fa-user-circle" aria-hidden="true"></i></span>
+                    <span class="title">Profile</span>
+                </a></li>
+                <li><a href="#">
+                    <span class="icon"><i class="fas fa-user-edit" aria-hidden="true"></i></span>
+                    <span class="title">Edit Profile</span>
+                </a></li>
+                <li><a href="#">
+                    <span class="icon"><i class="fas fa-clipboard-list" aria-hidden="true"></i></span>
+                    <span class="title">Case Log</span>
+                </a></li>
+                <li><a href="#" class="active">
+                    <span class="icon"><i class="fas fa-envelope-open-text" aria-hidden="true"></i></span>
+                    <span class="title">Notice Board</span>
+                </a></li>
+            </ul>
+        </div>
+        <!------------------Main Page Container Section--------------------------------->
+        <div class="main_container">
+            <div class="item">
+                If you're getting the sense that the word topic is a bit too grand for a measly paragraph, then think of a paragraph as a distinct section of writing that covers one aspect of your topic. That's the point. Sometimes, a paragraph will be an aspect of a topic, sometimes it will be a topic within an issue, sometimes it will an issue within an argument…a narrative, a process, a comparison, whatever. Whatever the scope of your paragraph, it should be neatly bounded as one…well, topic. If you prefer aspect instead of topic, go with that. 
+            </div>
+            <div class="item">
+                If you're getting the sense that the word topic is a bit too grand for a measly paragraph, then think of a paragraph as a distinct section of writing that covers one aspect of your topic. That's the point. Sometimes, a paragraph will be an aspect of a topic, sometimes it will be a topic within an issue, sometimes it will an issue within an argument…a narrative, a process, a comparison, whatever. Whatever the scope of your paragraph, it should be neatly bounded as one…well, topic. If you prefer aspect instead of topic, go with that. 
+            </div>
+            <div class="item">
+                If you're getting the sense that the word topic is a bit too grand for a measly paragraph, then think of a paragraph as a distinct section of writing that covers one aspect of your topic. That's the point. Sometimes, a paragraph will be an aspect of a topic, sometimes it will be a topic within an issue, sometimes it will an issue within an argument…a narrative, a process, a comparison, whatever. Whatever the scope of your paragraph, it should be neatly bounded as one…well, topic. If you prefer aspect instead of topic, go with that. 
+            </div>
+            <div class="item">
+                If you're getting the sense that the word topic is a bit too grand for a measly paragraph, then think of a paragraph as a distinct section of writing that covers one aspect of your topic. That's the point. Sometimes, a paragraph will be an aspect of a topic, sometimes it will be a topic within an issue, sometimes it will an issue within an argument…a narrative, a process, a comparison, whatever. Whatever the scope of your paragraph, it should be neatly bounded as one…well, topic. If you prefer aspect instead of topic, go with that. 
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
