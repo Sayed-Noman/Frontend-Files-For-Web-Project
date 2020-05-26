@@ -20,6 +20,7 @@ body{
     display: flex;
     position: fixed;
     top: 10px;
+    z-index: 9999;/*to overcome scroll overlaping*/
     
 }
 .wrapper .top_navbar .hamburger{
@@ -171,3 +172,25 @@ body{
    width: calc(100% - 70px); 
    margin-left: 70px;
 } 
+
+/*--------------------Main page container table-contaoner-------------*/
+.wrapper .main_container .item .table-container{
+    margin: 10px auto;
+    width: 95%;
+    
+}
+/*------------------------Table View/Accept/Delete Links  as Buuton-------------------------*/
+
+.action-link a:link, .action-link a:visited {
+    background-color: #2e4ead;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .action-link a:hover, .action-link a:active {
+    background-color:#4360b5;
+  }
+
